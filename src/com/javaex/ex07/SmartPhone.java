@@ -6,8 +6,6 @@ public class SmartPhone extends MusicPhone {
         
     	 if("앱".equals(str)){
     		 startApp();
-         }else if("음악".equals(str)){
-        	 playMusic();
          }else{
              super.execute(str);
          }
